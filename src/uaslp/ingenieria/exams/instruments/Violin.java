@@ -1,9 +1,10 @@
 package uaslp.ingenieria.exams.instruments;
 
-import uaslp.ingenieria.exams.Nota;
+import uaslp.ingenieria.exams.*;
 
-public class Violin {
-    public void toca(Nota nota) {
+public class Violin extends Instrument{
+    @Override
+    public void playNota(Nota nota) {
 
     }
 }

@@ -1,9 +1,11 @@
 package uaslp.ingenieria.exams.instruments;
 
-import uaslp.ingenieria.exams.Nota;
+import uaslp.ingenieria.exams.*;
 
-public class Flauta {
-    public void sopla(Nota nota) {
+public class Flauta extends Instrument {
 
+
+    @Override
+    public void playNota(Nota nota) {
     }
 }

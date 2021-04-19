@@ -1,10 +1,11 @@
 package uaslp.ingenieria.exams.instruments;
 
-import uaslp.ingenieria.exams.Nota;
+import uaslp.ingenieria.exams.*;
 
-public class Piano {
+public class Piano extends Instrument{
 
-    public void presionaTecla(Nota nota){
+    @Override
+    public void playNota(Nota nota) {
 
     }
 }
